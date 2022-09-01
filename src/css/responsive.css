@@ -1,0 +1,40 @@
+@media(max-width: 525px){
+    .card{
+        margin-top: 200px;
+        width: 320px;
+        height: 280px;
+    }
+
+    .titulo {
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+
+    .descricao {
+        width: 250px;
+        margin: auto;
+    }
+
+    .descricao p {
+        font-weight: 700;
+    }
+
+    .linha-desktop{
+        display: none
+    }
+
+    .linha-mobile {
+        display: block;
+        margin: auto;
+        margin-top: 45px;
+    }
+
+    .icone {
+        margin-top: 30px;
+    }
+
+    .icone .btn {
+        width: 60px;
+        height: 60px;
+    }
+}

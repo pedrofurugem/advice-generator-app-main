@@ -1,0 +1,110 @@
+body {
+    background-color: #202632;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 800;
+}
+
+.card{
+    display: grid;
+    max-width: 500px;
+    margin: auto;
+    background-color: hwb(218 19% 71%);
+    grid: "titulo" 50px 
+          "descricao" 120px 
+          "linha" 80px
+          "icone" 0px;
+    margin-top: 250px;
+    border-radius: 20px;
+}
+
+.titulo {
+    grid-area: titulo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #58FEAC;
+    font-size: 12px;
+    margin-top: 18px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.descricao {
+    grid-area: descricao;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao p {
+    width: 300px;
+    font-size: 22px;
+    text-align: center;
+    color: #FFF;
+}
+
+.linha-desktop {
+    grid-area: linha;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.linha-mobile {
+    display: none;
+}
+
+.icone {
+    grid-area: icone;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone .btn {
+    background-color: #58FEAC;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icone .btn:hover {
+    background-color: rgb(64, 255, 64);
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.card h1{
+    text-align: center;
+    color: #58FEAC;
+    font-size: 10px;
+    padding-top: 25px;
+}
+
+.card p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    width: 350px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+.linha img{
+    padding-left: 28px;
+    padding-top: 10px;
+}
+*/
